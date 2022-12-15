@@ -1,2 +1,7 @@
-# News-article-clustering-and-chatbot-recommender
-Project where we cluster news article scraped from The New York Times. And made a chatbot to recommend an article based on a user request. Project where we cluster news article scraped from The New York Times. And made a chatbot to recommend an article based on a user request.
+# Project overview
+
+
+# Code and Resources Used 
+**Python Version :** 3.9.12                                                                 
+**Packages :** pandas, numpy, tensorflow, requests, time, nltk, re, sklearn, matplotlib, seaborn, wordcloud, selenium, flask, json, pickle, random                                   
+**For Web Framework Requirements :**  ```pip install -r requirements.txt```                               
