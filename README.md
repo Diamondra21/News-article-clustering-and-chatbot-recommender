@@ -7,7 +7,7 @@
 
 # Web Scraping
 
-Use of the article search API of The New York Times to scrape over 10 000 news article from nytimes.com. 
+Use of the article search API of The New York Times to scrape over 10 000 news article from nytimes.com.                                   
 For each article, we got the following :
 *	title
 *	abstract
