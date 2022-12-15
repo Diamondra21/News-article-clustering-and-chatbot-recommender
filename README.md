@@ -1,6 +1,6 @@
 # Project overview
 
-* Scraped over 10 000 news article from glassdoor using the article search API of The New York Times.
+* Scraped over 10 000 news article using the article search API from The New York Times.
 * Pre-processed text data to cluster the articles with k-means algorithm. 
 * Searched the optimal number of clusters with the elbow method.
 * Built a chatbot to recommend an article, based on a user request.
