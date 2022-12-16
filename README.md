@@ -17,14 +17,14 @@ For each article, we got the following :
 # Data cleaning
 
 The text data is preprocessing using the following usual NLP techniques :
-* The special characters, numbers and punctuations are removed.
-* We put each word under its lemmatized form.
-* We remove the stop words.
+* Special characters, numbers and punctuations are removed.
+* We put each word in its lemmatized form.
+* We remove stop words.
 
-Lemmatizating is chosed over stemming for the better quality of clustering. The inertia is much more lower
+Lemmatizating is preferred to stemming for the better quality of clustering. Inertia is much more lower
 when words are lemmatized.
 
-After using the previous steps, the data is cleaned and optimized in order turned to numerical data to be used efficiently by Machine Learning models.  
+After using the previous steps, the data is cleaned and optimized in order to be transformed into numerical data to be used effectively by machine learning models.
 
 # K-means clustering 
 
