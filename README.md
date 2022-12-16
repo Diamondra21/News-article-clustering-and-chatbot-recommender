@@ -14,6 +14,24 @@ For each article, we got the following :
 *	paragraph
 *	date
 
+# Data cleaning
+
+The text data is preprocessing using the following usual NLP techniques :
+* The special characters, numbers and punctuations are removed.
+* We put each word under its lemmatized form.
+* We remove the stop words.
+
+Lemmatizating is chosed over stemming for the better quality of clustering. The inertia is much more lower
+when words are lemmatized.
+
+After using the previous steps, the data is cleaned and optimized in order turned to numerical data to be used efficiently by Machine Learning models.  
+
+# K-means clustering 
+
+The k-means method is used to cluster the data. The goal is to assign each point of the dataset (articles) into discrete groups. Where each point within the same cluster is close to each other and far from the points of different clusters.
+
+To make this method work, its iterative algorithm is based on centroids (center points of each cluster). The number of clusters K is the hyperparameter that can be initialized randomly. But we’re using the algorithm K-Means++ algorithm which tends to converge more rapidly. 
+
 # Code and Resources Used 
 
 **Python Version :** 3.9.12                                                                 
