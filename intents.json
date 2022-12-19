@@ -1,0 +1,19 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Whats up"],
+         "responses": ["Hello! How can I help?", "Good to see you again! How can I help?", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye","Thank you goodbye","Good bye", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "article",
+         "patterns": ["I would like to read something","I would like to read an article", "what are the articles", "what do you reccommend?", "could i get an article to read"],
+         "responses": ["What article topic are you interested in?"],
+         "context_set": ""
+        }
+        
+   ]
+}
