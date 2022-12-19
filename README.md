@@ -3,7 +3,7 @@
 * Scraped over 10 000 news article using the article search API from The New York Times.
 * Pre-processed text data to cluster the articles with k-means algorithm. 
 * Searched the optimal number of clusters with the elbow method.
-* Built a chatbot to recommend an article, based on a user request.
+* Built a chatbot to recommend an article, based on the user's article topic request.
 
 # Web Scraping
 
@@ -38,7 +38,7 @@ As an unsupervised machine learning model, the k-means model we created will be 
 
 A chatbot is a software application used to conduct an on-line chat conversation via text. The chatbot works with a neural network to identify the patterns of sentences given by the user as input and pick a random response related to that query. The possible answers of the chatbot are predefined in an intents file, wich makes the chatbot highly customizable.
 
-The chatbot will recommend articles to the user with the help of the k-means model created. The request related to article topic (text) of the user will be used as an entry point to be labelled by the k-means model. The recommended articles are 5 random articles among the most recents, that have a cluster label matching with the k-means model prediction.
+The chatbot will recommend articles to the user with the help of the k-means model created. The request related to the user's article topic (text) will be used as an entry point to be labelled by the k-means model. The recommended articles are 5 random articles of the dataset among the most recents, which have a cluster label corresponding to the prediction of the k-means model.
 
 # Code and Resources Used 
 
