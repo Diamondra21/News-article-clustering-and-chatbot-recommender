@@ -42,6 +42,7 @@ The chatbot will recommend articles to the user with the help of the k-means mod
 
 Here is an exemple of the use of the chatbot. The answers of the chatbot are in blue : 
 
+<img src="chatbot_use_case.png" width=60% height=60%>
 
 # Code and Resources Used 
 
