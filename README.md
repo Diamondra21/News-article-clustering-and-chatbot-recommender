@@ -30,7 +30,7 @@ After using the previous steps, the data is cleaned and optimized in order to be
 
 The k-means model is used to cluster the data. The goal is to assign each point of the dataset (articles) into discrete groups. Where each point within the same cluster is close to each other and far from the points of different clusters.
 
-To make this method work, its iterative algorithm is based on centroids (center points of each cluster). The number of clusters K is the hyperparameter that can be initialized randomly. But we’re using the algorithm K-Means++ algorithm which tends to converge more rapidly. 
+In order to build this unsupervised model, its iterative algorithm is based on centroids (center points of each cluster).We used the k-means++ algorithm which tends to converge more rapidly. The number of clusters K is the hyperparameter we tuned with the elbow method. The ideal number of cluster we found is 20. 
 
 As an unsupervised machine learning model, the k-means model we created will be used to cluser unseen data point based on the distance of the new data point and the centroids.
 
