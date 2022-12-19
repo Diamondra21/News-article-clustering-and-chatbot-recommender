@@ -40,6 +40,9 @@ A chatbot is a software application used to conduct an on-line chat conversation
 
 The chatbot will recommend articles to the user with the help of the k-means model created. The request related to the user's article topic (text) will be used as an entry point to be labelled by the k-means model. The recommended articles are 5 random articles of the dataset among the most recents, which have a cluster label corresponding to the prediction of the k-means model.
 
+Here is an exemple of the use of the chatbot. The answers of the chatbot are in blue : 
+
+
 # Code and Resources Used 
 
 **Python Version :** 3.9.12                                                                 
